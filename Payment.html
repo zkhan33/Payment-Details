@@ -1,0 +1,56 @@
+<!-- Zarina Khan -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Payment Checkout</title>
+</head>
+
+<body>
+    <div class="formContainer">
+        <h3 class="paymentDetails">Payment Details</h3>
+
+        <form>
+            <div class="images">
+                <img class="chip" src="./chip.png" alt="chip">
+                <div class="acceptedCards">
+                    <p class="acceptedCardsP">Accepted Cards</p>
+                    <img class="cardTypes" src="./cards.png" alt="payment methods">
+                </div>
+            </div>
+            <div class="cardNum">
+                <label for="Card Number">Card Number</label>
+                <br>
+                <input class="cardNumber" type="text" placeholder="####-####-####-####" maxlength="16">
+            </div>
+            <div class="inputs">
+                <div class="nameInput">
+                    <label for="name">Name on Card</label>
+                    <br>
+                    <input class="nameonCard" type="text">
+                </div>
+                <div class="dateInput">
+                    <label for="expdate">Valid Thru</label>
+                    <br>
+                    <input class="date" type="text" placeholder="mm/yy" maxlength="5">
+                </div>
+                <div class="cvvInput">
+                    <label for="CVV">CVV</label>
+                    <br>
+                    <input class="cvvnum" type="text" maxlength="3" placeholder = "***">
+                </div>
+            </div>
+            
+        </form>
+        <input class="submit" type="submit" value="Submit">
+
+    </div>
+
+</body>
+
+</html>
